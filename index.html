@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Движущийся квадрат</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        
+        .square {
+            width: 60px;
+            height: 60px;
+            background-color: #ff6b6b;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+        
+        .controls {
+            margin-top: 200px;
+        }
+        
+        button {
+            padding: 10px 15px;
+            margin: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <script src="1208.js"></script>
+    <h1>Управляй квадратом!</h1>
+    <div id="square" class="square"></div>
+    <div class="controls">
+        <button id="upBtn">Вверх</button>
+        <button id="leftBtn">Влево</button>
+        <button id="rightBtn">Вправо</button>
+        <button id="downBtn">Вниз</button>
+        <button id="resetBtn">Сброс</button>
+    </div>
+</body>
+</html>
